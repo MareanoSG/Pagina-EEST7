@@ -1,0 +1,56 @@
+@import 'common.css'; 
+
+.directivos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 70%;
+    
+    
+}
+
+.directivos h2{
+    text-align: center;
+    color: black;
+}
+.director,
+.vicedirectores,
+.jefes-de-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.carta-directivo{
+    width: 50%;
+    background-color: #143D74;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    padding: 10px;
+}
+.carta-directivo .directivo-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+}
+.carta-directivo .directivo-info h2{
+    color: white;
+}
+.carta-directivo .directivo-info p{
+    color: white;
+}
+.carta-directivo img{
+    width: 180px;
+}
+.jefes-de-area{
+    display: flex;
+    flex-direction: column;
+}
+.jefes-de-area-separator{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
