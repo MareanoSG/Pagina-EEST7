@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>TÉCNICA 7 'José Hernández' - Avellaneda</title>
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html"><img src="IMG/logo.png" alt="" class="header__logo"></a>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="" class="nav__a">Ciclo Lectivo</a></li>
+                <li class="nav__li"><a href="" class="nav__a">Alumnos</a></li>
+                <li class="nav__li"><a href="" class="nav__a">Calendario</a></li>
+                <li class="nav__li"><a href="sobre-nosotros.html" class="nav__a">Sobre Nosotros</a></li>
+                <li class="nav__li"><a href="" class="nav__a">Orientaciones</a></li>
+                <li class="nav__li"><a href="contacto.html" class="nav__a">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2 class="contact__title">Contacto</h2>
+
+        <form class="contact-form">
+            <label for="name" class="contact-form__label">Nombre:</label>
+            <input type="text" id="name" class="contact-form__input" placeholder="Escribe tu nombre">
+
+            <label for="email" class="contact-form__label">Correo electrónico:</label>
+            <input type="email" id="email" class="contact-form__input" placeholder="Escribe tu correo">
+
+            <label for="message" class="contact-form__label">Mensaje:</label>
+            <textarea id="message" class="contact-form__textarea" placeholder="Escribe tu mensaje"></textarea>
+
+            <button type="submit" class="contact-form__button">Enviar</button>
+        </form>
+
+        <div class="contact-info">
+            <p class="contact-info__item">Correo: <span class="contact-info__value">eest7avellaneda@abc.gob.ar</span></p>
+            <p class="contact-info__item">Teléfono: <span class="contact-info__value">+54 9 11 4201 0621</span></p>
+            <p class="contact-info__item">Dirección: <span class="contact-info__value">Ing. Marconi 745, B1870 Avellaneda, Provincia de Buenos Aires</span></p>
+            <p class="contact-info__item">Horarios: <span class="contact-info__value">Lunes a Viernes, 7am - 6pm</span></p>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.715933619785!2d-58.366649787870955!3d-34.66187626046035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33351d983fa69%3A0x35e88ee685a84dd5!2sEscuela%20de%20Educaci%C3%B3n%20Secundaria%20T%C3%A9cnica%20(EEST)%20N%C2%BA7%20%22Jos%C3%A9%20Hern%C3%A1ndez%22!5e0!3m2!1ses-419!2sar!4v1700248278130!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
